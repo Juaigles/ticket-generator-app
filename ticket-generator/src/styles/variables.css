@@ -1,0 +1,96 @@
+:root {
+    /* Colores neutrales */
+    --color-neutral-0: #FFFFFF;
+    --color-neutral-300: #D1D0D5;
+    --color-neutral-500: #8784A5;
+    --color-neutral-700: #4B4869;
+    --color-neutral-900: #0D082D;
+  
+    /* Colores naranjas */
+    --gradient-color: linear-gradient(90deg, #F37362 0%, #FFF 100%);
+    --color-orange-500: #F57463;
+    --color-orange-700: #E1604F;
+  
+    /* Colores de fondo y texto */
+    --bg-image-bg: url('/src/assets/bg/Background.png');
+    --bg-image-lines: url('/src/assets/bg/Lines.png');
+    --bg-image-circles: url('/src/assets/bg/circles.png');
+
+    --bg-image-line1: url('/src/assets/bg/line.png');
+    --bg-image-line2: url('/src/assets/bg/line2.png');
+
+
+    --color-text: rgba(255, 255, 255, 0.87);
+  
+    /* Tipografías */
+    --font-primary: 'Inconsolata', monospace;
+
+ /* Text Presets */
+ --preset-1-size: 60px;
+ --preset-1-mobile-size: 30px;
+ --preset-1-line-height: 110%;
+ --preset-1-letter-spacing: -1px;
+ --preset-1-font-weight: 800;
+
+ --preset-2-size: 40px;
+ --preset-2-mobile-size: 24px;
+ --preset-2-line-height: 110%;
+ --preset-2-letter-spacing: -1px;
+ --preset-2-font-weight: 700;
+
+ --preset-3-size: 30px;
+ --preset-3-mobile-size: 22px;
+ --preset-3-line-height: 110%;
+ --preset-3-letter-spacing: -1px;
+ --preset-3-font-weight: 700;
+
+ --preset-4-size: 24px;
+ --preset-4-mobile-size: 20px;
+ --preset-4-line-height: 120%;
+ --preset-4-letter-spacing: -0.5px;
+ --preset-4-font-weight: 500;
+
+ --preset-5-size: 20px;
+ --preset-5-line-height: 110%;
+ --preset-5-letter-spacing: -0.3px;
+ --preset-5-font-weight: 800;
+
+ --preset-6-size: 18px;
+ --preset-6-mobile-size: 14px;
+ --preset-6-line-height: 120%;
+ --preset-6-letter-spacing: 0px;
+ --preset-6-font-weight: 500;
+
+ --preset-7-size: 12px;
+ --preset-7-line-height: 120%;
+ --preset-7-letter-spacing: -0.2px;
+ --preset-7-font-weight: 400;
+    /* Espaciados */
+    --spacing-0: 0px;
+    --spacing-025: 2px;
+    --spacing-050: 4px;
+    --spacing-075: 6px;
+    --spacing-100: 8px;
+    --spacing-150: 12px;
+    --spacing-200: 16px;
+    --spacing-250: 20px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-600: 48px;
+    --spacing-800: 64px;
+    --spacing-1000: 80px;
+  
+    /* Bordes redondeados */
+    --radius-0: 0px;
+    --radius-4: 4px;
+    --radius-6: 6px;
+    --radius-8: 8px;
+    --radius-10: 10px;
+    --radius-12: 12px;
+    --radius-16: 16px;
+    --radius-20: 20px;
+    --radius-24: 24px;
+    --radius-full: 999px;
+  }
+  

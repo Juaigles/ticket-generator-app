@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "./variables.css";
+@import "@fontsource/inconsolata";
+
+:root {
+  font-family: 'Inconsolata', monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--color-text);
+  background-repeat: no-repeat,no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 600px 300px,  1100px 600px, 250px, 1900px 1000px, cover;
+    background-position: right 5%, left bottom, 75% 50%, 100% 0%  , center;
+    background-image: 
+  var(--bg-image-line2),
+  var(--bg-image-line1),
+  var(--bg-image-circles),
+  var(--bg-image-lines) , 
+  var(--bg-image-bg);
+  margin: 0;
+
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
