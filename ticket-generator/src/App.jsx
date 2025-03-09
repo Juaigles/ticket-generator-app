@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import FormPage from "./pages/formPage"
-import TicketPage from "./pages/ticketPage"
+import TicketPage from "./pages/TicketPage"
 import Layout from "./pages/Layout"
+import FormPage from "./pages/PageForm"
 
 
 function App() {

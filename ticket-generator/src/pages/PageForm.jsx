@@ -1,9 +1,7 @@
 import React from 'react'
 import Form from "../components/Form"
-import Logo from "../components/Logo"
-import Ticket from "../components/Ticket"
 
-const FormPage = () => {
+const PageForm = () => {
     return (
         <div className="flex flex-col gap-[45px] justify-center items-center my-2 pb-[20px]">
             <div className="text-center w-full flex flex-col gap-[20px]">
@@ -23,4 +21,4 @@ const FormPage = () => {
     )
 }
 
-export default FormPage
+export default PageForm
